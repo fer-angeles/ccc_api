@@ -12,24 +12,25 @@ load_dotenv()
 
 # Creación del diccionario con los datos del mensaje
 # En el caso de agregar un nuevo Lead debe conicidir el nombre y el número de columnas de la lista con la que se creo la campaña
+# En el arreglo de lead se puede enviar
 data_send = {
      'campaign_id': '123456',
      'Leads': [
-        {
-             'TEL': '8112345678',
-             'GRUPO': 'Cel',
-             'US': '42488',
-             'CK': '2',
-             'NOM': 'Víctor Reyes',
-             'SMS': 'HOLA, Gracias.',
-             'BRAND': 'Palacio de Hierro',
-             'BALANCE': '5000',
-             'DATE': '2024-02-25',
-             'PRODUCT': 'Tarjeta Black',
-             'URL': 'https//www.youtube.com/',
-             'US2': 'GSDaniel',
-             'US3': 'QAAdmin',
-             'US4': 'Agente007'
+          {
+               'TEL': '8112345678',
+               'GRUPO': 'Cel',
+               'US': '42488',
+               'CK': '2',
+               'NOM': 'Víctor Reyes',
+               'SMS': 'HOLA, Gracias.',
+               'BRAND': 'Palacio de Hierro',
+               'BALANCE': '5000',
+               'DATE': '2024-02-25',
+               'PRODUCT': 'Tarjeta Black',
+               'URL': 'https//www.youtube.com/',
+               'US2': 'GSDaniel',
+               'US3': 'QAAdmin',
+               'US4': 'Agente007'
         }
     ]
 }
