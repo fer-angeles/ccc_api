@@ -15,6 +15,7 @@ data_send = {
     'page_size': 1000,
     'columns': '',
     'options': ['list_columns', 'dispositions', 'call_notes']
+    #'passphrase': 'miclave' # en caso de que la campaña se encuentre encriptada se tiene que agregar este campo para poder visualizar los datos correctamente
 }
 
 # Endpoint para enviar los datos
