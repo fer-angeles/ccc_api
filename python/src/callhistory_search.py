@@ -8,6 +8,9 @@ from datetime import datetime
 load_dotenv()
 
 # Creación del diccionario con los datos del mensaje
+# Para mas opciones puede consultar la documentación
+# https://api-doc.ccc.uno/?version=latest#e183174f-88eb-448b-be06-e623b928f4ed
+
 data_send = {
     'datetime_from': '2024-01-19 01:00:00',
     'datetime_to': '2024-01-19 23:59:59',

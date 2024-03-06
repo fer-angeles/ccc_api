@@ -12,7 +12,9 @@ load_dotenv()
 
 # Creación del diccionario con los datos del mensaje
 # En el caso de agregar un nuevo Lead debe conicidir el nombre y el número de columnas de la lista con la que se creo la campaña
-# En el arreglo de lead se puede enviar
+# Para mas opciones puede consultar la documentación
+# https://api-doc.ccc.uno/?version=latest#24b49cb8-2a61-4edf-ba7d-5d7fde65f9d7
+
 data_send = {
      'leads': ['123456']
       #'passphrase': 'miclave' # en caso de que la campaña se encuentre encriptada se tiene que agregar este campo para poder visualizar los datos correctamente
